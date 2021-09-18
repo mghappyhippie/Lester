@@ -1,0 +1,27 @@
+{
+  "name": "lester",
+  "version": "1.0.0",
+  "description": "An autocomplete API for inventory.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "npm install && node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mghappyhippie/Lester.git"
+  },
+  "author": "Lester The Chicken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mghappyhippie/Lester/issues"
+  },
+  "homepage": "https://github.com/mghappyhippie/Lester#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.3.0",
+    "helmet": "^4.6.0",
+    "memory-cache": "^0.2.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
